@@ -55,8 +55,7 @@ function Home() {
             </div>
 
            <div className='flex items-center justify-center '>
-              
-           <div className="absolute">
+                <div className="absolute">
                     <div className="relative top-0">
                         <div className="flex items-center justify-center py-10">
                         <img src={Shape4} alt="Shape" className="" />
