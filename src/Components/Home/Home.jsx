@@ -70,7 +70,7 @@ function Home() {
                     </div>
                 </div>
 
-            <div className="flex flex-row justify-between self-end w-[602px] box-sizing-border m-20 my-14 ">
+            <div className="flex flex-row justify-between self-end w-[602px] box-sizing-border m-20  ">
                 <div>
                 <img src={Shape2} alt="Shape" className="" />
                 </div>
