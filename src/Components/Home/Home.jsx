@@ -15,7 +15,7 @@ function Home() {
         <img src={Shape} alt="Shape" className="w-full" />
         </div>
 
-       <div className='Nav grid sm:grid-cols-1 lg:grid-cols-3 top-8 relative z-10'>
+       <div className='Nav grid sm:grid-cols-1 lg:grid-cols-3 relative z-10 py-6 px-20'>
        
         <div className='flex'>
         <img src={Logo} alt="Logo" />
@@ -37,7 +37,7 @@ function Home() {
        </div>
           
           <div className='Main grid grid-cols-2 absolute my-40'>
-             <div className='Text flex flex-col items-start justify-center p-14'>
+             <div className='Text flex flex-col items-start justify-center p-14'>      
               <h1 className='text-2xl font-semibold leading-66 text-left text-[#FF922C]'>$32</h1>
               <h1 className='text-xl font-semibold pt-2'>Green Goddess </h1>
               <h1 className='text-xl font-semibold'>Chicken Salad</h1> 
@@ -56,17 +56,18 @@ function Home() {
 
            <div className='flex items-center justify-center '>
               
-           <div className="relative">
-                    <div className="absolute top-0">
-                        <div className="flex items-center justify-center">
-                        <img src={Shape4} alt="Shape" className=" top-40" />
+           <div className="absolute">
+                    <div className="relative top-0">
+                        <div className="flex items-center justify-center py-10">
+                        <img src={Shape4} alt="Shape" className="" />
                         </div>
                     </div>
-            
-                    <div className="absolute top-0">
+                     
+                     <div className="absolute">
+                    <div className="relative top-0 flex items-center justify-center">
                     <img src={Shape3} alt="Shape" className="" />
                     </div>
-                    
+                    </div>
                 </div>
 
             <div className="flex flex-row justify-between self-end w-[602px] box-sizing-border m-20 my-14 ">
